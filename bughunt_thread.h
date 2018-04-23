@@ -6,6 +6,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <windows.h>
+#include <Bcrypt.h>
+
 
 #include "bughunt.h"
 #include "handles_database.h"

@@ -300,8 +300,10 @@ HWND OpenNotepad(void) {
     	return 0;
     }
 
-    sprintf_s(buf, 1024, "f%d.txt - Notepad", tempINT); 
+    sprintf_s(buf, 1024, "f%d - Notepad", tempINT); 
 
+    logger("buf = %s and tempINT = %d", buf, tempINT);
+  
 
     //Dirty++
 	while(1) {
